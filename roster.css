@@ -15,10 +15,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 3rem;
-    background-color: black;
+    background-color: #C34141;
     margin-bottom: 8rem;
     border-radius: 5px;
-    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav h1 {
@@ -45,7 +45,7 @@ nav a {
 
 nav a:hover {
 
-    color: #C34141;
+    color: black;
     text-decoration: none;
     font-size: 1.01rem;
 }
@@ -77,7 +77,12 @@ nav ul li {
     text-decoration: none;
     font-weight:bold;
    
+}
 
+.player-roster ul li:hover {
+
+    color: black;
+   
 }
 
 .player-roster ul {
@@ -94,6 +99,9 @@ nav ul li {
     flex: 100%;
     margin-bottom: 0rem;
     text-decoration: underline;
+    text-decoration-color: black;
+    color: black;
+    font-weight: bolder;
 
 }
 
