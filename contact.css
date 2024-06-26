@@ -84,5 +84,8 @@ body {
 
     font-family: Inter;
     background-image: url("akame.gif");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
