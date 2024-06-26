@@ -1,0 +1,65 @@
+﻿nav {
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+    background-color: black;
+    margin-bottom: 8rem;
+    border-radius: 5px;
+}
+
+nav h1 {
+
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul {
+
+    display: flex;
+    gap: 1.9rem;
+
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+nav a:hover {
+
+    color: #C34141;
+    text-decoration: none;
+    font-size: 1.01rem;
+}
+
+nav ul li {
+
+    font-weight: bold;
+
+}
+
+.contact {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+body {
+
+    font-family: Arial;
+
+}

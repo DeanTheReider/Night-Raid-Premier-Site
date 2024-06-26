@@ -1,0 +1,115 @@
+﻿nav {
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+    background-color: black;
+    margin-bottom: 8rem;
+    border-radius: 5px;
+}
+
+nav h1 {
+
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav ul {
+
+    display: flex;
+    gap: 1.9rem;
+
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+nav a:hover {
+
+    color: #C34141;
+    text-decoration: none;
+    font-size: 1.01rem;
+}
+
+nav ul li {
+
+    font-weight: bold;
+
+}
+
+.info {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+    gap: 5rem; 
+
+}
+
+.info img {
+
+    width: 20rem;
+    height: 21rem;
+    filter: drop-shadow(0 0 0.2rem black);
+}
+
+.info .text {
+
+    color: white;
+    background-color: #C34141;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    padding-left: 0.5rem;
+    width: 25rem;
+    border-radius: 3px;
+}
+
+.info h2 {
+
+    font-size: 1.5rem;
+
+}
+
+.info p {
+
+    font-size: 1rem;
+
+}
+
+.schedule {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.schedule img {
+
+    width: 60rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+
+    font-family: Arial;
+
+}
