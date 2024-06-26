@@ -1,5 +1,11 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+ul {
+
+    list-style-type: none;
+
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -102,7 +108,6 @@ nav ul li {
     margin-right: auto;
 
 }
-
 
 .schedule img {
 
